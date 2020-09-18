@@ -4,9 +4,8 @@ Created on Mon Jul 20 22:07:01 2020
 
 @author: oanap
 """
-#Sa se scrie o functie care primeste un text ca parametru si returneaza textul scris
-#invers.
-	#Ex: reverse_function(“casa”) va returna “asac”
+#write a function that receives a text as a parameter and return the text reversed.
+
 def cuvant_invers(a):
     x = len(a)
     y = ''
