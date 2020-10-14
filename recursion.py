@@ -11,4 +11,5 @@ def my_recursion(n):
     else:
         return n*my_recursion(n-1)
     
-print(my_recursion(5))
+n = int(input('enter a number:'))   
+print(my_recursion(n))
